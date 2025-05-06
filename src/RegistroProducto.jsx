@@ -6,7 +6,7 @@ export const RegistroProducto = () => {
     <div className='d-flex flex-column'>
         <h1 className='text-center'>Registro de Producto</h1>
          
-        <div className="d-flex justify-content-center" style={{backgroundColor:'gray'}}> 
+        <div className="d-flex justify-content-center"> 
             <FormProducto/>
          
         </div>

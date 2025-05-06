@@ -8,6 +8,7 @@ import { VerVentas } from './VerVentas';
 
 // CSS
 import './index.css';
+import { AgregarVenta } from './AgregarVenta';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                     <Route path="/ver-ventas" element={<VerVentas />} />
                     <Route path="/registro-producto" element={<RegistroProducto />} />
                     <Route path="/ver-algo" element={<VerAlgo />} />
+                    <Route path="/agregar-venta" element={<AgregarVenta />} />
                     
                 </Routes>
             </div>

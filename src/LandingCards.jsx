@@ -22,6 +22,12 @@ export const LandingCards = () => {
                 <p>This is the third card.</p>
             </div>
         </Link>
+        <Link to={'/agregar-venta'}> 
+            <div className='d-flex card m-2 aling-items-center p-3'>
+                <h2>Agregar Venta</h2>
+                <p>This is the third card.</p>
+            </div>
+        </Link>
     </div>
   )
 }
