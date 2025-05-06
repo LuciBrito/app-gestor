@@ -2,7 +2,7 @@ import Form from 'react-bootstrap/Form';
 
 function FormProducto() {
   return (
-    <Form >
+    <Form  >
       <Form.Group className="mb-3">
         <Form.Label>Nombre del producto</Form.Label>
         <Form.Control type="email" placeholder="Nombre del prducto" />

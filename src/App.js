@@ -9,13 +9,16 @@ import { VerVentas } from './VerVentas';
 // CSS
 import './index.css';
 import { AgregarVenta } from './AgregarVenta';
+import { Header } from './Header';
 
 
 function App() {
     return (
         <Router> {/* <--- este es el que faltaba */}
             <div className='App'>
+                <Header/>
                 <Routes>
+                   
                     <Route path="/" element={<Landing />} />
                     <Route path="/ver-ventas" element={<VerVentas />} />
                     <Route path="/registro-producto" element={<RegistroProducto />} />
